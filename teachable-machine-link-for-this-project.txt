@@ -1,0 +1,7 @@
+https://teachablemachine.withgoogle.com/models/ICHNrNGJc/
+
+
+
+
+
+font-family: 'Josefin Sans', sans-serif;

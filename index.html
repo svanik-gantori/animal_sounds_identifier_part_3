@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Animal Sounds Recognizer</title>       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script&family=Dela+Gothic+One&family=Josefin+Sans:wght@200&family=Ma+Shan+Zheng&family=PT+Sans+Narrow:wght@400;700&family=Pixelify+Sans:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <div class="col-xs-12 text-center" id="header_div">
+            <h1 class="text-danger heading">Animal Sounds Recognizer</h1>
+            <p class="text-success">Click on start and play one of these sounds- (Barking, Meowing, Neighing, Mooing, Baaing, Roaring) from Youtube.</p>
+            <br>
+            <a href="https://youtube.com/shorts/ntJl6rIOKOc?si=yD1eXOxXg2Nr-YiG"> Click for Sheep sound</a>
+            <br>
+            <a href="https://youtube.com/shorts/oqjR3jeQOv8?si=LAuQ6PRF4gO-kDKQ"> Click for Cow sound</a>
+            <br>
+            <a href="https://youtube.com/shorts/hfjKe3g7fDc?si=Av-bzx0li5RHmpRt"> Click for Cat sound</a>
+            <br>
+            <a href="https://youtu.be/K3CenN7d30Y?si=MbIVrcP1oeJ-Wr2y"> Click for Chicken sound</a>
+            <br>
+            <a href="https://youtube.com/shorts/Pf7ejphiQkg?si=d3_jWePX44A3Hhte"> Click for Lion sound</a>
+            <br>
+            <a href="https://youtube.com/shorts/XiViIjnnDd0?si=2HV3zuGb2t8ZRLOi"> Click for Dog sound</a>
+            <br>
+            <a href="https://youtube.com/shorts/erYhEM4qLpU?si=zVkPVesf2SdBVmQW"> Click for Horse sound</a>
+
+
+
+        </div>
+
+        <div id="main_div">
+            <center>
+                <button class="btn btn-warning" onclick="startClassification();">Start</button>
+                <h4 id="counter"></h4>
+                <h3 id="animal"></h3>
+                <br>
+                <img id="image" src="ear.png" width="300" height="300">
+            </center>
+        </div>
+
+        <div class="copy_right_footer text-center">Created by: Svanik Gantori</div>
+    </body>
+</html>

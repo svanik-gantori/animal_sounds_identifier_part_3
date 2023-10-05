@@ -1,0 +1,60 @@
+body
+{
+    
+    background:rgb(198, 243, 17);
+}
+
+#header_div
+{
+    background-color: blue;
+    
+}
+
+.heading
+{
+    color: yellow;
+    text-shadow: 5px 5px 8px grey;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+}
+
+#header_div p, a
+{
+    color: aquamarine;
+    font-weight: bolder;
+    text-shadow: 5px 5px 3px;
+    font-family: 'Dela Gothic One', cursive;
+    letter-spacing: 3px;
+}
+
+#main_div button
+{
+
+font-family: 'Dancing Script', cursive;
+margin-top: 20px;
+font-weight:bold;
+width: 100px;
+letter-spacing: 2px;
+}
+
+#main_div
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.copy_right_footer
+{
+    font-family: 'PT Sans Narrow', sans-serif;
+    bottom: 0;
+    color:white;
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+    background-color: black;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+
